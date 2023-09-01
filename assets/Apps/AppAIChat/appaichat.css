@@ -1,0 +1,123 @@
+.appaichat-container {
+  height: 100%;
+  width: 100%;
+}
+
+.appaichat-message-group {
+  width: 100%;
+  border-bottom-width: 1px;
+  border-color: rgb(255 249 249 / 20%);
+  border-bottom-style: solid;
+}
+
+.appaichat-message-group-container {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+  display: flex;
+}
+
+.appaichat-messagegroup-list {
+  width: 100%;
+  height: 100%;
+}
+
+.appaichat-message-icon-container {
+  display: flex;
+  height: 100%;
+}
+
+.appaichat-message-icon-a {
+  height: 30px;
+  width: 30px;
+  background-color: #1abc9b;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.appaichat-message-icon-b {
+  height: 30px;
+  width: 30px;
+  background-color: #19c37d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appaichat-message-text-container {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+}
+.appaichat-message-text {
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.appaichat-message-color-a {
+  background-color: #5b6977;
+}
+.appaichat-message-color-b {
+  background-color: #4e5d6c;
+}
+
+#appaichat-container {
+  background-color: #0f2537;
+}
+
+.appaichat-text-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appaichat-input-group {
+  border: 1px solid #c1c1c11c !important;
+  width: 100%;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  background-color: #0f2537;
+  box-shadow: inset 0px 0px 8px 0.1px #9b9b9b21;
+  display: flex;
+}
+
+.appaichat-input {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 50px;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+  max-height: 200px;
+  height: 62px;
+  overflow-y: auto;
+  font-size: 20px;
+}
+
+.appaichat-input:focus-visible {
+  outline: none;
+}
+
+.appaichat-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.appaichat-button-send {
+  background-color: transparent;
+  border: 0;
+  padding-right: 25px;
+  opacity: 0.5;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  height: max-content;
+  width: max-content;
+  right: 1.25rem;
+  position: absolute;
+  bottom: 0.75rem;
+}

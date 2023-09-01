@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Dash",
+            "type": "python",
+            "request": "launch",
+            "module": "app",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "run",
+                "--no-debugger"
+            ]
+        }
+    ]
+}
