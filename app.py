@@ -9,6 +9,8 @@ import Apps.AppCore.Callbacks.CallbackController as callback_controller
 import Apps.AppAIChat.Callbacks.CallbackAIChatInput as callback_aichat_input
 import Apps.AppAIChat.Callbacks.CallbackAIChatButtonSend as callback_aichat_buttonsend
 import Apps.AppAIChat.Callbacks.CallbackAIChatAPICall as callback_aichat_apicall
+import Apps.AppAIChat.Callbacks.CallbackAIChatButtonToggleChat as callback_aichat_buttontogglechat
+import Apps.AppAIChat.Callbacks.CallbackAIChatSideTabs as callback_aichatside_tabs
 
 # Configure session handling
 server = Flask(__name__)
@@ -44,6 +46,8 @@ callback_controller.RegisterCallback(app, app.serversession)
 callback_aichat_input.RegisterCallback(app)
 callback_aichat_buttonsend.RegisterCallback(app)
 callback_aichat_apicall.RegisterCallback(app)
+callback_aichat_buttontogglechat.RegisterCallback(app)
+callback_aichatside_tabs.RegisterCallback(app)
 
 
 if __name__ == "__main__":

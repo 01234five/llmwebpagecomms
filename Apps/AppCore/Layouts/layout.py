@@ -16,7 +16,7 @@ def Render():
                 ),
                 fullscreen=True,
                 type="circle",
-                style={"backgroundColor": "#0f253700"},
+                style={"backgroundColor": "rgb(0 0 0)", "opacity": "0.5"},
             ),
             html.Div(
                 [],

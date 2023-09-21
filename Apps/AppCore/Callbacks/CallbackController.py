@@ -1,5 +1,5 @@
 from dash import Input, State, Output, html, ctx, no_update
-import Apps.AppAIChat.Layouts.layout as layout
+import Apps.AppAIChat.Layouts.layoutmain as layoutappaichatmain
 
 
 def RegisterCallback(_app, session):
@@ -11,7 +11,7 @@ def RegisterCallback(_app, session):
     def render_page_content(pathname):
         if pathname in ["/aichat"]:
             return [
-                layout.Render(),
+                layoutappaichatmain.Render(),
             ]
         else:
             return html.Div("Error 404: Not Found")
